@@ -1,0 +1,119 @@
+/*General */
+.gray-background {
+    background-color:lightgray;
+    }
+.main__title{
+        font-family: 'Hubballi';
+        background-color: brown;
+        border: 2px solid brown;
+        width: 33%;
+        margin-top: 20px;
+        margin-left: 0%;
+        
+    }
+ .red-font {   
+     font-family: 'Hubballi', cursive; 
+     color:brown;
+     list-style-type:none;
+     display: inline-flex;
+     margin: 2px;
+     padding: 4px;
+     font-size: 110%;
+     
+ }
+ .text-aligned {
+    display: inline-block;
+    text-align: start;
+    font-family: 'Hubballi', cursive;
+    font-size: 105%;
+    
+ }
+ .subtext-aligned {
+     font-family: 'Hubballi', cursive;
+ }
+ .socialmedia{
+     align-items: left;
+ } 
+/*Index*/
+.csjn{
+    width: 40%;
+    height: 50%;
+    border: solid 5px;
+    margin-left: 20px;
+}
+.carrusel-tamaño{
+    width: 50%;
+    height: 59%;
+}
+/*Contacto*/
+.formulario{
+    font-family: 'Hubballi', cursive;
+    color: black;
+    font-size: 20px;
+    margin: 50px;
+    padding-left: 7px;
+    padding-top: 7px;
+    width: 40%;
+    height: 540px;
+    border: 3px solid brown;
+    display: inline-table;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(5, 75px);
+    text-align: left;
+    align-items: center;
+}
+.formulario-texto{
+    font-size: 30px;
+}
+.formulario-casilleros{
+    border: 2px solid brown;
+    font-family: 'Hubballi', cursive;
+    color:grey;
+    height: 45%;
+    background-color: white;
+}
+.formulario-mensaje{
+    width: 100%;
+    height: 100%;
+    border: 2px solid brown;
+    font-family: 'Hubballi', cursive;
+    color: grey;
+    grid-row: (6 / 7);
+    grid-column: (1 / 3);
+}
+.boton-enviar{
+    border: 2px solid brown;
+    color: black;
+    font-family: 'Hubballi', cursive;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.imagen-abogado{
+    width: 40%;
+    height: 40%;
+    margin: 10px;
+    display: inline-flex;
+    align-items:center;
+}
+/*Lista de Abogados*/
+.contacto__cuadro{
+    line-height: 2.0;
+    width: 75%;
+    border-color: brown;
+    border-style: solid;
+    padding: 5px;
+    padding-bottom: 1px;
+    font-family: 'Hubballi', cursive;
+    font-size: large;
+
+}
+.listado-texto{
+    line-height: 1.4;
+    font-weight: solid;
+    font-size:150%;
+    font-family: 'Hubballi', cursive;
+}
